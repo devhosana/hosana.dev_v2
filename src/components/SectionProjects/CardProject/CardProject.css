@@ -1,0 +1,95 @@
+.main-container--card-project {
+  transition: all 0.25s;
+  padding: 0 2.4rem;
+
+  /* border: 1px solid red; */
+  position: relative !important;
+  z-index: 1 !important;
+ 
+
+
+}
+
+.left-container--card-project {
+  border: 5px solid transparent;
+  transition: all 0.3s;
+  transition-delay: 0.25s;
+
+
+
+}
+
+.right-container--card-project {
+  /* width: 27rem;
+  height: 41.4rem; */
+  width: 25.65rem;
+  height: 37.26rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 2.4rem;
+  transition: all 0.3s;
+  background-image: linear-gradient(to top left, var(--color-black)  0%, var(--gray-medium) 100%);
+  border: 5px solid var(--color-white);
+  transition: all 0.3s;
+  transition-delay: 0.125s;
+  /* Como está acima cria um 'efeito', abaixo sem efeito */
+  /* transition-delay: 0.25s; */
+
+}
+
+.project-description {
+  font-size: 1.4rem;
+  line-height: 1.35;
+  color: var(--color-white);
+}
+
+.temp {
+  width: 12.5rem;
+  height: 12.5rem;
+  margin: 0 auto;
+  filter: invert(1);
+}
+
+
+.active {
+  border: 5px solid var(--color-primary);
+  transform: translate(-11.25px, -11.25px);
+  opacity: 1;
+}
+
+.inactive {
+  opacity: 0.25;
+}
+
+.active-helper {
+  transform: translate(22.5px, 22.5px);
+}
+
+.right-container--card-project
+.tertiary-title {
+  line-height: 1.3;
+  margin-bottom: 0.8rem;
+}
+
+.project-links-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.project-link-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  filter: invert(1);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.project-link-icon:hover {
+  /* Gerando algum pequeno bug no título do projeto */
+  /* filter: invert(0.5); */
+}

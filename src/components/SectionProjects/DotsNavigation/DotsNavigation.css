@@ -1,0 +1,22 @@
+.dots-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+  
+}
+
+.dot {
+  transition: all 0.3s;
+  padding: 0.5rem;
+  border-radius: 1000px;
+  border: 3px solid var(--color-primary);
+  cursor: pointer;
+}
+
+.active-dot {
+  border: 3px solid var(--color-black);
+  border-radius: 1000px;
+  padding: 0.5rem 1rem;
+}

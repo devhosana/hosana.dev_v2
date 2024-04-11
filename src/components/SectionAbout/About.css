@@ -1,0 +1,91 @@
+.section-about {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 12.8rem 2.4rem;
+}
+
+.container-grid-about {
+  display: grid;
+  grid-template-columns: 40fr 60fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.profile-img-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.profile-img-helper {
+  border: 5px solid var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-11.25px, -11.25px);
+}
+
+.about-profile-img {
+  max-width: 32rem;
+  max-height: 32rem;
+  transform: translate(22.5px, 22.5px);
+  border: 5px solid var(--color-white);
+}
+
+.profile-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.profile-text {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+.sub-container--paragraph-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+}
+
+.container-paragraph,
+.container-skills {
+  margin-top: 2.4rem;
+  padding: 0 7.2rem;
+}
+
+.about-paragraph {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.about-paragraph:last-child {
+  margin-top: 2rem;
+}
+
+.container-skills div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+}
+
+.skill-container {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: var(--color-black);
+  background-image: linear-gradient(to top left, var(--color-primary-tints)  0%, var(--color-primary) 100%);
+  color: var(--color-black);
+  letter-spacing: 1px;
+}
+
+
+
+
+

@@ -1,0 +1,58 @@
+
+.section-projects {
+  margin: 0 auto;
+  padding: 12.8rem 2.4rem;
+  max-width: 120rem;
+  background-color: var(--color-white);
+
+  
+  /* Desativando overflow fica mais bonito */
+  /* overflow: hidden; */
+}
+
+.main-container--projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.sub-container--projects {
+  padding: 2.4rem 0;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: center;
+  align-content: center;
+
+  background-color: #fff;
+  /* mix-blend-mode: multiply; */
+  
+  /* position: relative;
+  z-index: 1; */
+  /* transform-style: flat; */
+  /* transform-style: revert-layer; */
+
+  /* position: relative !important;
+  z-index: 0 !important; */
+  
+}
+
+
+.navigation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.4rem;
+}
+
+.navigation-arrow {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.navigation-arrow:active {
+  transform: scale(0.85);
+}
